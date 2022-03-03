@@ -9,3 +9,8 @@
     font-style: italic;
     list-style-type: none;
 }
+
+.img {
+    width: 800px;
+    height: 600px;
+}
