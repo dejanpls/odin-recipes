@@ -1,13 +1,12 @@
 .title {
     font-size: 36px;
     font-weight: lighter;
-    text-align: center;
 }
 
 .list {
     font-size: 24px;
     font-style: italic;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .img {
