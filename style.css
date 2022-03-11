@@ -1,15 +1,30 @@
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    margin: 0 auto;
+}
+
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(193, 245, 228);
+    background-color:rgb(200, 243, 229);
     text-align: center;
     font-style: italic;
     font-weight: 100;
 }
 .title {
     font-size: 36px;
+    padding: 10px 0;
 }
 
 .title-small {
@@ -26,11 +41,49 @@
 
 .list {
     font-size: 22px;
-    list-style-type: circle;
+    list-style-type: square;
 }
 
+ul.front-list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.front-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.front-list li {
+    border: 1px solid rgb(133, 199, 219);
+    background-color:rgb(200, 243, 229);
+    margin: 50px;
+    padding: 16px 32px;
+    width: 200px;
+    flex: 0 0 auto;
+}
+
+.featured-img {
+    display: flex;
+}
 .img {
-    width: 800px;
-    height: 600px;
+    width: 100%;
+    height: 70%;
+    flex-grow:1;
 }
 
+
+.footer{
+    margin-top: auto;
+    background-color: rgb(200, 243, 229);
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+}
